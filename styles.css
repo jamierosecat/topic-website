@@ -8,6 +8,11 @@ html, body {
     height: 100%; 
 }
 
+h1 {
+    display:flex;
+    justify-content:center;
+}
+
     /*  NAV BAR */
 
 #top-nav {
@@ -16,7 +21,7 @@ html, body {
 
 #top-nav ul {
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 #top-nav ul li {
@@ -40,4 +45,32 @@ html, body {
 main {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:rgb(195, 253, 177);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+
+footer ul li a {
+    display: block;
+    padding: 1em;
+    color:rgb(2, 56, 20);
+    transition: all 0.5s;
+}
+
+footer ul li a:hover {
+    background-color:rgb(242, 255, 238);
+    color:rgb(153, 53, 160);
 }
