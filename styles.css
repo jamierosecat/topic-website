@@ -50,22 +50,17 @@ main {
 /* FOOTER */
 
 footer {
+    display:grid; 
+    grid-template-columns: auto 1fr auto;
     background-color:rgb(195, 253, 177);
-}
-
-footer ul {
-    display: flex;
-    justify-content: center;
 }
 
 footer ul li {
     list-style: none;
 }
 
-
 footer ul li a {
     display: block;
-    padding: 1em;
     color:rgb(2, 56, 20);
     transition: all 0.5s;
 }
@@ -74,3 +69,23 @@ footer ul li a:hover {
     background-color:rgb(242, 255, 238);
     color:rgb(153, 53, 160);
 }
+
+footer #social {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+footer #social ul {
+    display:flex;
+    justify-content: center;
+}
+
+footer #social ul li a {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
