@@ -72,6 +72,11 @@ p {
     object-position:center;
 }
 
+.image5 {
+    width:75%;
+    object-fit:cover;
+    margin-left: 12%;
+}
 /*FLEX CONTAINERS AND GRIDS*/
 
 .parentFlexContainer {
@@ -82,6 +87,11 @@ p {
 .parentFlexContainer2 {
     display: flex;
     justify-content: right;
+}
+
+.parentFlexContainer3 {
+    display: grid;
+    grid-template-columns: 45% 50%
 }
 
 .phflexcontainer {
